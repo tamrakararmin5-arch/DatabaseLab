@@ -135,3 +135,5 @@ WHERE Salary > 60000;
 
 CREATE INDEX idx_lastname
 ON Employee(LastName);
+
+SELECT * FROM HighSalaryEmployees;
